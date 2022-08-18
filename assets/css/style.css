@@ -1,0 +1,25 @@
+body {
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(75, 189, 227);
+}
+
+h1 {
+  padding: 40px 20px;
+}
+
+header li {
+  padding: 0 40px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+header li:hover {
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
