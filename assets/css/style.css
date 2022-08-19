@@ -1,25 +1,68 @@
+:root {
+  --light-blue: #53c1e6;
+}
+
 body {
+  line-height: 1.5;
 }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(75, 189, 227);
+  background-color: var(--light-blue);
+  border-style: dashed;
+  margin-bottom: 2%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 h1 {
   padding: 40px 20px;
+  font-size: 300%;
 }
 
 header li {
   padding: 0 40px;
   display: inline-flex;
   justify-content: space-between;
+  text-decoration: underline;
 }
 
 header li:hover {
   color: white;
   cursor: pointer;
   font-weight: bold;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-me {
+  width: 50%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.about-me h2 {
+  font-size: 200%;
+  padding-bottom: 10px;
+}
+
+.about-me p {
+  display: inline-flex;
+  font-size: 100%;
+  margin: 10px 0;
+}
+
+.profile-picture {
+  width: max-content;
+  display: inline-flex;
+  float: right;
+  margin-left: 100px;
+  box-shadow: 20px 20px 20px #7c838a;
 }
