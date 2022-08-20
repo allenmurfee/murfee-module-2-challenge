@@ -82,15 +82,45 @@ header li:hover {
   border-width: 2px;
 }
 
-.my-work-hero {
+.work-hero {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: grey;
-  height: 200px;
-  width: auto;
+  background-color: var(--light-blue);
+  color: white;
+  font-size: 150%;
+  height: 300px;
+  width: 100%;
   padding: 5px;
   margin: 30px;
   text-align: center;
+  background-image: url(/assets/images/code.jpeg);
+}
+
+.work-hero:hover {
+  opacity: 0.7;
+}
+
+.work-hero h3:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.work-example {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 2%;
+}
+
+.work-example-left {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  width: fit-content;
+  border: 2px solid;
+  margin: 1%;
 }
