@@ -75,7 +75,7 @@ header li {
   box-shadow: 20px 20px 20px #7c838a;
   align-self: flex-end;
   margin-right: 200px;
-  margin-top: -260px;
+  margin-top: -220px;
   flex-shrink: 2;
 }
 
@@ -97,24 +97,24 @@ header li {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: var(--light-blue);
   color: var(--white);
   font-size: 150%;
+  font-weight: 800;
   height: 300px;
   width: 100%;
   padding: 5px;
   margin: 30px 0;
   text-align: center;
   background-image: url(/assets/images/code.jpeg);
+  border-style: solid;
+  border-color: var(--light-blue);
+  border-radius: 8px;
 }
 
 .work-hero:hover {
-  opacity: 0.7;
-}
-
-.work-hero h3:hover {
   text-decoration: underline;
   cursor: pointer;
+  opacity: 0.7;
 }
 
 .work-example {
@@ -130,14 +130,39 @@ header li {
   flex-direction: column;
   justify-content: center;
   height: 300px;
-  width: fit-content;
-  border: 2px solid;
+  width: 40%;
   margin: 1%;
+  text-align: center;
+  color: var(--white);
+  font-weight: 800;
+  font-size: 150%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-style: solid;
+  border-color: var(--light-blue);
+  border-radius: 8px;
 }
 
 .work-example-card:hover {
   text-decoration: underline;
   cursor: pointer;
+  opacity: 0.7;
+}
+
+#project-2 {
+  background-image: url(/assets/images/programmers.jpg);
+}
+
+#project-3 {
+  background-image: url(/assets/images/laptop.jpg);
+}
+
+#project-4 {
+  background-image: url(/assets/images/laptop-2.jpg);
+}
+
+#project-5 {
+  background-image: url(/assets/images/coding.jpg);
 }
 
 /* Footer */
