@@ -48,12 +48,11 @@ header li {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  flex-shrink: 2;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   padding: 5px;
   margin-left: 30px;
-  min-width: auto;
+  width: 50%;
   min-height: auto;
 }
 
@@ -68,18 +67,26 @@ header li {
 .section-style p {
   font-size: 100%;
   margin: 10px;
-  width: 50%;
 }
 
-.section-style img {
-  box-shadow: 20px 20px 20px #7c838a;
-  align-self: flex-end;
-  margin-right: 200px;
-  margin-top: -220px;
+/* Profile picture */
+.profile-picture {
+  display: flex;
   flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-right: -100px;
+  align-content: flex-end;
 }
 
-.section-style img:hover {
+.profile-picture img {
+  box-shadow: 20px 20px 20px #7c838a;
+  margin-top: -250px;
+  margin-right: 200px;
+  flex-shrink: 1;
+  width: 30%;
+}
+
+.profile-picture img:hover {
   rotate: 6deg;
   box-shadow: 20px 20px 20px var(--light-blue);
 }
@@ -199,4 +206,29 @@ footer li {
   text-decoration: underline;
   padding: 0 150px;
   font-size: 150%;
+}
+
+/* Media Queries */
+@media screen and (max-width: 992px) {
+  header {
+    justify-content: center;
+  }
+
+  .section-style h2,
+  .section-style p {
+    width: 100%;
+  }
+
+  footer ul {
+    justify-content: center;
+  }
+
+  footer li {
+    padding: 0 75px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+  }
 }
