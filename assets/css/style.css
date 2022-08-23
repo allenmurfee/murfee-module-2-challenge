@@ -220,7 +220,14 @@ footer li {
   font-size: 150%;
 }
 
-/* Media Queries */
+/* Media Queries for Responsive Design*/
+@media screen and (max-width: 1374px) {
+  .about {
+    width: 100%;
+    padding-right: 30px;
+  }
+}
+
 @media screen and (max-width: 992px) {
   header {
     justify-content: center;
@@ -243,11 +250,6 @@ footer li {
 @media screen and (max-width: 768px) {
   header li {
     padding: 0 15px;
-  }
-
-  .about {
-    width: 100%;
-    padding-right: 30px;
   }
 
   footer li {
