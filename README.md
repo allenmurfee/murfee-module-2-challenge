@@ -20,6 +20,15 @@ It should look like this screenshot:
 
 ## Credits
 
+Used for Flexbox information:
+https://www.w3schools.com/css/css3_flexbox.asp
+https://www.geeksforgeeks.org/how-to-use-flex-to-shrink-an-image-in-css/
+https://flexboxfroggy.com/
+https://css-tricks.com/understanding-flex-grow-flex-shrink-and-flex-basis/
+
+Information on rotating:
+https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate
+
 ## License
 
 MIT License
