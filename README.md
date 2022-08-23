@@ -6,11 +6,13 @@ This project is a portfolio website built from scratch using only HTML and CSS. 
 
 ## Installation
 
-No installation is required, just click the following URL to visit the web page:
+No installation is required, just click the following URL to visit the web page: https://allenmurfee.github.io/murfee-module-2-challenge/
+
+You can view the code here: https://github.com/allenmurfee/murfee-module-2-challenge 
 
 ## Usage
 
-Click this URL to view the page:
+Click this URL to view the page: https://allenmurfee.github.io/murfee-module-2-challenge/ 
 
 It should look like this screenshot:
 
