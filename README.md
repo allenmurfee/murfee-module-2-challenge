@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a portfolio website built from scratch using only HTML and CSS. The reason for building this project was to have a webpage where I could easily present information about myself and link to my CSS projects. While building this site, I answered a lot of questions I had regarding CSS, mainly pertaining to flexbox. I learned the quirks of flexbox, such as what needs to be applied to parent elements vs. child elements, how to use flex-grow and flex-shrink, how to incorporate flexbox with responsive layouts, and more. I also learned the importance of building a website that is friendly for all devices using a responsive layout.
+This project is a portfolio website built from scratch using only HTML and CSS. The reason for building this project was to have a webpage where I could easily present information about myself and link to my coding projects. While building this site, I answered a lot of questions I had regarding CSS, mainly pertaining to flexbox. I learned the quirks of flexbox, such as what needs to be applied to parent elements vs. child elements, how to use flex-grow and flex-shrink, how to incorporate flexbox with responsive layouts, and more. I also learned the importance of building a website that is friendly for all devices using a responsive layout.
 
 ## Installation
 
