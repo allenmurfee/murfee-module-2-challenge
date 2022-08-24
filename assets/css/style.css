@@ -124,7 +124,7 @@ header li {
   padding: 5px;
   margin: 30px 0;
   text-align: center;
-  background-image: url("/assets/images/code.jpeg");
+  background-image: url(../images/code.jpeg);
   border-style: solid;
   border-color: var(--light-blue);
   border-radius: 8px;
@@ -170,19 +170,19 @@ header li {
 }
 
 #project-2 {
-  background-image: url("/assets/images/programmers.jpg");
+  background-image: url(../images/programmers.jpg);
 }
 
 #project-3 {
-  background-image: url("/assets/images/laptop.jpg");
+  background-image: url(../images/laptop.jpg);
 }
 
 #project-4 {
-  background-image: url("/assets/images/laptop-2.jpg");
+  background-image: url(../images/laptop-2.jpg);
 }
 
 #project-5 {
-  background-image: url("/assets/images/coding.jpg");
+  background-image: url(../images/coding.jpg);
 }
 
 /* Footer */
