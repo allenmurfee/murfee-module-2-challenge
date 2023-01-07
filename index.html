@@ -17,7 +17,7 @@
 
   <body>
     <!-- Navigation bar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Allen Murfee's Portfolio</a>
         <button
@@ -51,9 +51,9 @@
 
     <main>
       <!-- About Me Section -->
-      <div class="p-3 mb-4 bg-light rounded-3">
+      <div class="bg-light mb-4 rounded-3">
         <div class="container py-5">
-          <div class="row">
+          <div class="row bg-light">
             <h1 class="display-5 fw-bold">Hey, I'm Allen.</h1>
             <p class="col-7 fs-4">
               Thanks for visiting my portfolio! My name is Allen Murfee and I'm
@@ -82,35 +82,243 @@
         <div class="container">
           <h1 class="display-5 fw-bold">My Work</h1>
           <div class="row py-3">
-            <div class="col-6">
+            <div class="col-6 text-center">
               <img
                 class="img-fluid rounded"
                 src="assets/images/golden.jpg"
                 alt="golden retriever"
               />
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                Pet 2 Vet
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div
+                  class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+                >
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">
+                        Pet 2 Vet
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      Pet 2 Vet is a full-stack application utilizing a dynamic
+                      frontend using JavaScript and Handlebars, and a MySQL
+                      database using Sequelize models. Used Express.js to
+                      efficiently use routes and utilized session data for login
+                      and user data.
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col-6">
+            <div class="col-6 text-center">
               <img
                 class="img-fluid rounded"
                 src="assets/images/smoothie2.jpg"
                 alt="smoothie in a glass"
               />
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                Smoothie Math
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div
+                  class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+                >
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">
+                        Pet 2 Vet
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      Pet 2 Vet is a full-stack application utilizing a dynamic
+                      frontend using JavaScript and Handlebars, and a MySQL
+                      database using Sequelize models. Used Express.js to
+                      efficiently use routes and utilized session data for login
+                      and user data.
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="row">
-            <div class="col-6">
+            <div class="col-6 text-center">
               <img
                 class="img-fluid rounded"
                 src="assets/images/social-media.jpg"
                 alt="social media"
               />
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                Social Network API
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div
+                  class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+                >
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">
+                        Pet 2 Vet
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      Pet 2 Vet is a full-stack application utilizing a dynamic
+                      frontend using JavaScript and Handlebars, and a MySQL
+                      database using Sequelize models. Used Express.js to
+                      efficiently use routes and utilized session data for login
+                      and user data.
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col-6">
+            <div class="col-6 text-center">
               <img
                 class="img-fluid rounded"
                 src="assets/images/ecommerce.jpg"
                 alt="Allen Murfee profile picture"
               />
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                Ecommerce Backend
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div
+                  class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+                >
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">
+                        Pet 2 Vet
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      Pet 2 Vet is a full-stack application utilizing a dynamic
+                      frontend using JavaScript and Handlebars, and a MySQL
+                      database using Sequelize models. Used Express.js to
+                      efficiently use routes and utilized session data for login
+                      and user data.
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
