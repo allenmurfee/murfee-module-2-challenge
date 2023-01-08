@@ -24,6 +24,9 @@ h1 {
   font-size: 300%;
 }
 
+p span {
+  display: block;
+}
 
 .links:hover {
   color: var(--white);
