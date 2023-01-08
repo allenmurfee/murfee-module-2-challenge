@@ -103,6 +103,10 @@ header li {
 }
 
 /* My Work Section */
+.left-align  {
+  text-align: left !important;
+}
+
 .section-style h2 {
   text-align: left;
   font-size: 220%;
