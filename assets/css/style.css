@@ -107,6 +107,10 @@ header li {
   text-align: left !important;
 }
 
+.center-align  {
+  text-align: center !important;
+}
+
 .section-style h2 {
   text-align: left;
   font-size: 220%;
