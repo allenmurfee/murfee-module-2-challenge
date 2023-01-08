@@ -24,17 +24,6 @@ h1 {
   font-size: 300%;
 }
 
-header ul {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-header li {
-  padding: 0 40px;
-  justify-content: space-between;
-  text-decoration: underline;
-  font-size: 125%;
-}
 
 .links:hover {
   color: var(--white);
@@ -193,40 +182,7 @@ header li {
   background-image: url(../images/coding.jpg);
 }
 
-/* Footer */
 
-footer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--light-blue);
-  border-style: solid;
-  margin-top: 2%;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  width: 100%;
-  height: 150px;
-}
-
-footer h3 {
-  display: flex;
-  justify-content: center;
-  font-size: 200%;
-  padding: 0 150px;
-}
-
-footer ul {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-footer li {
-  text-decoration: underline;
-  padding: 0 150px;
-  font-size: 150%;
-}
 
 /* Media Queries for Responsive Design*/
 @media screen and (max-width: 1374px) {
@@ -246,13 +202,6 @@ footer li {
     width: 100%;
   }
 
-  footer ul {
-    justify-content: center;
-  }
-
-  footer li {
-    padding: 0 75px;
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -260,7 +209,5 @@ footer li {
     padding: 0 15px;
   }
 
-  footer li {
-    padding: 0 35px;
-  }
+ 
 }
