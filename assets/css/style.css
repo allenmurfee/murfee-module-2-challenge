@@ -28,12 +28,9 @@ p span {
   display: block;
 }
 
-.links:hover {
-  color: var(--white);
-  cursor: pointer;
-  font-weight: bold;
+.modalLink {
+  color: white
 }
-
 /* About Me */
 
 .section-style {
